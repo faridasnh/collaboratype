@@ -9,7 +9,7 @@
 }
 
 .sp-content {
-    
+
 	position: relative;
 	overflow: hidden;
 }
@@ -155,7 +155,7 @@ input.sp-selector-3:checked ~ .sp-content .sp-parallax-bg {
     -moz-transition: left ease-in 0.8s;
     -o-transition: left ease-in 0.8s;
     -ms-transition: left ease-in 0.8s;
-    transition: left ease-in 0.8s; 
+    transition: left ease-in 0.8s;
 }
 
 .sp-slider > li {
@@ -174,7 +174,7 @@ input.sp-selector-3:checked ~ .sp-content .sp-parallax-bg {
     -moz-transition: opacity ease-in 0.4s 0.8s;
     -o-transition: opacity ease-in 0.4s 0.8s;
     -ms-transition: opacity ease-in 0.4s 0.8s;
-    transition: opacity ease-in 0.4s 0.8s; 
+    transition: opacity ease-in 0.4s 0.8s;
 }
 .sp-slider > li img{
 	-webkit-box-sizing: border-box;
@@ -214,4 +214,71 @@ input.sp-selector-3:checked ~ .sp-content .sp-slider > li:nth-child(3){
 }
 @media screen and (max-width: 320px){
 	.sp-slideshow { height: 158px; }
+}
+
+/**
+ * active class for stickyNavbar.js
+ */
+.active {
+	color: #fff !important;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0); // hardware acceleration of CSS animation
+}
+
+@media (min-width: 768px) {
+  .navbar { border-radius: 0px !important; }
+  .collaboratype-navbar {
+    background-color: #222 !important;
+    border-color: #080808 !important;
+  }
+
+  #slideshow {
+    padding-top: 0px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #slideshow {
+    padding-top: 52px;
+  }
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+}
+.collaboratype-navbar {
+  background-color: #73B1BF;
+  border-color: #73B1BF;
+}
+.collaboratype-navbar .navbar-brand {
+  color: white;
+  font-family: Novabold;
+  font-size: 28px;
+}
+.collaboratype-navbar .navbar-toggle { border-color: #ddd; }
+.collaboratype-navbar .navbar-toggle .icon-bar{ background-color: #fff; }
+.collaboratype-navbar-collapse { background-color: #222; }
+
+.sticky {
+  width: 100% !important;
+  top: 0;
+}
+
+.footer {
+	padding: 10px 0;
+	background-color: #2E5C63;
+	color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: Novabold;
+  src: url(../fonts/NOVABOLD.otf);
+}
+
+.text-default {
+  font-family: Novabold;
 }

@@ -1,0 +1,26 @@
+{
+  "name": "COLLABORATYPE",
+  "version": "1.0.0",
+  "description": "task try",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faridasnh/collaboratype.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faridasnh/collaboratype/issues"
+  },
+  "homepage": "https://github.com/faridasnh/collaboratype#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "owl.carousel": "^2.2.0",
+    "stickyNavbar.js": "^1.3.3"
+  }
+}
